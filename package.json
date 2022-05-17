@@ -1,0 +1,20 @@
+{
+  "name": "signpdf",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "signpdf": "./index.js"
+  },
+  "scripts": {
+    "main": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pleiva <npmjs@peter.dev.br>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "node-forge": "^1.3.1",
+    "node-signpdf": "^1.5.0"
+  }
+}

@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+*.p12
+*.pfx
+
+.DS_Store
